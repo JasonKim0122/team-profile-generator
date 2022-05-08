@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #30a9ea;
+    --secondary-color: #e4d22f;
+    --tertiary-color: #000000;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin:20px;
+    border-bottom: 2px solid var(--tertiary-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header h1 {
+    color:aliceblue;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 40px;
+    width: 80%;
+}
+
+.main-container {
+    padding-left: 40px;
+}
+
+#Manager {
+    border: 2px solid var(--tertiary-color);
+    background-color: var(--primary-color);
+}
+
+.manager-name {
+    padding:20px 0 20px 100px;
+    margin:20px;
+}
+
+.engineer-name {
+    padding:20px 0 20px 100px;
+    margin: 20px;
+}
+
+.intern-name {
+    padding:20px 0 20px 100px;
+    margin: 20px;
+}
+
+#Engineer {
+    border: 2px solid var(--tertiary-color);
+    background-color: var(--primary-color);
+}
+
+#Intern {
+    border: 2px solid var(--tertiary-color);
+    background-color: var(--primary-color);
+}
+
+.id {
+    font-size: 20px;
+}
+
+.email {
+    font-size: 20px;
+}
+
+.office-number {
+    font-size: 20px;
+}
+
+.github {
+    font-size: 20px;
+}
+
+.university {
+    font-size: 20px;
+}
+
+
+.card {
+    display:inline-block;
+    width: 45%;
+    height: 30%;
+    padding: 20px 0 20px 50px;
+    margin: 20px;
+}

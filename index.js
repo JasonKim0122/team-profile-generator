@@ -3,6 +3,8 @@ const Employee = require('./lib/Employee');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
+const createTemplate = require('./src/page-template');
+const writeFile = require('./src/writeFile');
 
 const employeesArray = [];
 
@@ -81,9 +83,8 @@ const promptEmployeeQuestions = () => {
         if (response.typeOfEmployee === 'selectEngineer') {promptEngineerQuestions (); };
         if (response.typeOfEmployee === 'selectIntern') {promptInternQuestions (); };
         if (response.typeOfEmployee === 'done') { 
-            /* This will be added later and will create our template!
             let createHtml = createTemplate(employeesArray)
-            writeFile(createHtml); */
+            writeFile(createHtml);
         }
     })
 };
